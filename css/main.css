@@ -1,21 +1,50 @@
 * {
     font-family: "Arial", "sans-serif";
+    
+}
+
+body {
+    background-color: darkgray;
+}
+
+img {
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.title-class {
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    background-color: #75ADE0;
+    color: #000;
+    box-shadow: 4px 4px 2px #888888;
+}
+
+.title-text {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
 }
 
 .photo-class {
     border: 1px black solid;
-}
-
-.title-class {
-    border: 1px black solid;
+    box-shadow: 4px 4px 2px #888888;
 }
 
 .desc-class {
     border: 1px black solid;
 }
 
-
-p {
-    font-size: 1.2em;
-    border: 1px black solid;
+.desc-header {
+    margin-top: 0px;
 }
+
+.desc-li {
+    font-size: 1.25em;
+    margin-left: -15px;  
+}
+
+
+
+
+
+
