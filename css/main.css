@@ -1,0 +1,21 @@
+* {
+    font-family: "Arial", "sans-serif";
+}
+
+.photo-class {
+    border: 1px black solid;
+}
+
+.title-class {
+    border: 1px black solid;
+}
+
+.desc-class {
+    border: 1px black solid;
+}
+
+
+p {
+    font-size: 1.2em;
+    border: 1px black solid;
+}
