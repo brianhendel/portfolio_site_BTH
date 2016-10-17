@@ -1,41 +1,55 @@
 * {
-    font-family: "Arial", "sans-serif";
-    
+    font-family: "Roboto", "Arial", "sans-serif";
 }
 
 body {
-    background-color: darkgray;
+    background-color: #434444;
 }
 
-img {
+p img {
     box-shadow: 4px 4px 2px #888888;
+}
+
+.jumbotron {
+    margin: -20px 0px 10px 0px;
+    background: #000 url("../images/code_hero_img.jpg") no-repeat center center;
+    color: #FFF;
+    height: 300px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.projects {
+    background: darkgray;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .title-class {
-    margin-bottom: 10px;
+    margin: 0px 0px 10px 0px;
     padding-bottom: 2px;
     background-color: #75ADE0;
     color: #000;
-    box-shadow: 4px 4px 2px #888888;
+    border-radius: 10px;
+
 }
 
 .title-text {
     text-decoration: none;
     color: #000;
     font-weight: 600;
-}
-
-.photo-class {
-    border: 1px black solid;
-    box-shadow: 4px 4px 2px #888888;
-}
-
-.desc-class {
-    border: 1px black solid;
+    font-size: 0.9em;
 }
 
 .desc-header {
-    margin-top: 0px;
+    margin-top: 4px;
+    font-size: 1.5em;    
 }
 
 .desc-li {
