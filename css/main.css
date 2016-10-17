@@ -11,11 +11,18 @@ p img {
 }
 
 .jumbotron {
-    margin: -20px 0px 10px 0px;
-    background: #000 url("../images/code_hero_img.jpg") no-repeat center center;
-    color: #FFF;
+    margin: -20px 0px 20px 0px;
+    background: #434444 url("../images/code_hero_img-2.jpg") no-repeat center center;
     height: 300px;
+    color: lightgray;
+    font-size: 5.0em;
 }
+
+.jumbotron h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
 
 .navbar-default .navbar-brand {
     color: black;
@@ -25,10 +32,26 @@ p img {
     color: black;
 }
 
+.mission-container {
+    background: #FFB64C;
+    height: 50px;
+    font-size: 1.75em;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.mission-text {
+    vertical-align: center;
+    font-weight: 800;
+}
+
+
 .projects {
     background: darkgray;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .title-class {
@@ -36,7 +59,7 @@ p img {
     padding-bottom: 2px;
     background-color: #75ADE0;
     color: #000;
-    border-radius: 10px;
+    border-radius: 7px;
 
 }
 
